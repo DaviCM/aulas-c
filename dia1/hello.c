@@ -7,6 +7,9 @@ void bools(void) {
 
     if (isActive == 1) {
         printf("Deu bão \n");
+    }
+    else {
+        printf("Num deu bom não \n");
     };
 };
 
@@ -17,8 +20,8 @@ int main(void) {
     float floating_point = 3.14;
     char* string = "Olá, meu amigo"; // o tipo string não existe no C!
 
-    printf("%i é um int, %f é um float \n", integer, floating_point);
-    printf("E %s é uma string, ou um ponteiro para um char! \n", string);
+    printf("%i é um int, %f é um float \n", integer, floating_point); // Códigos %s indicam o tipo da variável que queremos mostrar
+    printf("E \"%s\" é uma string, ou um ponteiro para um char! \n", string);
     return 0;
 };
 
