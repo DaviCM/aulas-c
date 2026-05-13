@@ -16,7 +16,7 @@ int main(void) {
 }
 
 /* 
-na declaração, * define o tipo int *, um ponteiro para um int
+na declaração, * define o tipo int*, um ponteiro para um int
 nós igualamos esse ponteiro ao endereço de memória de uma variável int. Ele agora "referencia" numero
 Depois, nós atribuímos um valor à variável
 E depois usamos o indirection operator para "desreferenciar" o ponteiro
@@ -24,4 +24,4 @@ Ou seja: utilizamos ele para acessar o valor do endereço de memória que o pont
 Nesse caso o valor é o valor de numero, então nós alteramos ele diretamente.
  */
 
- // Estamos dizendo ao C para usar o valor na memória que o ponteiro está apontando, não o ponteiro em si.
+// Estamos dizendo ao C para usar o valor na memória que o ponteiro está apontando, não o ponteiro em si.
