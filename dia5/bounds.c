@@ -6,7 +6,7 @@
 
 void halfDefined(void) {
     int driverNums[] = {VETTEL, VETTEL + 1, [VETTEL + 3]=11, 42}; // podemos deixar o número de elementos fixo ao indexa-los diretamente.
-    for (int counter = 0; counter < (sizeof driverNums / sizeof(int)); counter++) {
+    for (long unsigned counter = 0; counter < (sizeof driverNums / sizeof(int)); counter++) {
         printf("%d ", driverNums[counter]);
     };
 }
