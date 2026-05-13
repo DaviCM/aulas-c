@@ -9,7 +9,7 @@ void nums(void) {
     int y = 0; 
     y += x > 5? 10: 27; // ternário, igual ao do JS
     printf("%d \n", y);
-};
+}
 
 
 void increment(void) {
@@ -48,12 +48,12 @@ void forloop(void) {
         printf("Estamos na iteração: %d \n", num);
     };
     printf("%s \n", "Acabou o Guaraná Antárctica");
-};
+}
 
 int main(void) {
     nums();
     increment();
     forloop();
     return 0;
-};
+}
 

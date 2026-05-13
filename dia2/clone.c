@@ -18,4 +18,4 @@ int main(void) {
         printf("(pai) E esse é meu pai: %d \n", getppid());
         printf("(pai) Meu pai é, na verdade, o shell! \n\n");
     };
-};
+}

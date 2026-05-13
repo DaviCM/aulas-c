@@ -13,7 +13,7 @@ int main(void) {
 
     printf("Nosso valor final é: %d \n", numero);
     return 0;
-};
+}
 
 /* 
 na declaração, * define o tipo int *, um ponteiro para um int

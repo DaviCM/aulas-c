@@ -23,9 +23,9 @@ void ptrs(void) {
   printf("E esse é um ponteiro para ele: %p \n", (void*)&num); // assim que se faz conversão de tipo no c, (tipo)var.
                                                                // estamos convertendo esse ponteiro para um ponteiro void
                                                                // ele é um "tipo sem tipo", então aceita qualquer quantidade de bytes.
-};
+}
 
 int main (void) {
     ptrs();
     return 0;
-};
+}

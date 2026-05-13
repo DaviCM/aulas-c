@@ -7,7 +7,7 @@ float umFloatAleatorio(void);
 // Em uma função, isso é um parâmetro: int target
 int somarUm(int target) {
     return ++target;
-};
+}
 
 
 int main(void) {
@@ -24,7 +24,7 @@ int main(void) {
         printf("Chamando uma função declarada via protótipo: %f \n", umFloatAleatorio());
     };
     return 0;
-};
+}
 
 /* Curiosidade: a main() sempre retorna 0 como sinal para código bem sucedido, 
 por isso ela tem que ser uma função int e não void */
@@ -35,5 +35,5 @@ float umFloatAleatorio(void) {
     RAND_MAX é o valor máximo que rand() Pode retornar se não utilizarmos módulo para dividir
     Esse valor é o maior int32 sem sinal (unsigned) possível */
     return (float)rand() / RAND_MAX; 
-};
+}
 

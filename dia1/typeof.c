@@ -14,7 +14,7 @@ void getSizes(void) {
     printf("Esse char ocupa: %zu bytes \n", sizeof a);
     printf("Isso aqui é um double, por algum motivo: %zu bytes \n", sizeof 3.14159);
     // para cada tipo de dado em c, existe um formatador % para o imprimir na tela
-};
+}
 
 
 void doWhile(void) {
@@ -32,11 +32,12 @@ void doWhile(void) {
         melancia += 1;
     } while (melancia < 50);
     // um bloco do-while sempre irá executar ao menos uma vez, pois ele executa antes de avaliar a expressão
-};
+}
+
 
 int main(void) {
     getSizes();
     doWhile();
     return 0;
-};
+}
 

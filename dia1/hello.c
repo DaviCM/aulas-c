@@ -11,7 +11,7 @@ void bools(void) {
     else {
         printf("Num deu bom não \n");
     };
-};
+}
 
 int main(void) {
     bools();
@@ -23,7 +23,7 @@ int main(void) {
     printf("%i é um int, %f é um float \n", integer, floating_point); // Códigos %s indicam o tipo da variável que queremos mostrar
     printf("E \"%s\" é uma string, ou um ponteiro para um char! \n", string);
     return 0;
-};
+}
 
 // Comentários de linha
 

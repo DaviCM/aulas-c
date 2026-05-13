@@ -14,10 +14,10 @@ void memoria(void) {
 
     free(ola); // Liberando o espaço de memória que alocamos para olá.
     printf("Agora nossa string é: \"%s\". Sumiu! \n", ola);
-};
+}
 
 
 int main(void) {
     memoria();
     return 0;
-};
+}
