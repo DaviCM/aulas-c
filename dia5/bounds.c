@@ -13,6 +13,9 @@ void halfDefined(void) {
 
 
 int main(void) {
+    halfDefined();
+    printf("\n");
+
     // em C, você pode tentar acessar endereços de memória de arrays não indexados. O comportamento é indefinido:
     int arrayTest[5] = {14, 15, 16, 17, 18};
     for (int c = 0; c < 10; c++) {
