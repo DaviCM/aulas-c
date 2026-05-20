@@ -5,7 +5,6 @@
 // Por causa do espaço de memória em que o compilador coloca ponteiros.
 
 
-
 void stringManip(char *string) {
     printf("String: %s \n", string);
     string[0] = 'C';
@@ -36,5 +35,5 @@ int main(void) {
     return 0;
 }
 
-// Ou seja: strings declaradas em notaçaõ de array não são string literals, mas cópias mutáveis de strings.
+// Ou seja: strings declaradas em notação de array não são string literals, mas cópias mutáveis de strings.
 // String literals são imutáveis

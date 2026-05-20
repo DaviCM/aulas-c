@@ -5,11 +5,23 @@
             "type": "shell",
             "label": "Create bin subdirectory",
             "detail": "Create current subdirectory inside ./bin. Necessary for VS not to freak out",
-            "command": "/bin/mkdir",
-            "args": [
-                "-p",
-                "./bin/${relativeFileDirname}"
-            ],
+            "linux": {
+                "command": "/bin/mkdir",
+                "args": [
+                    "-p",
+                    "./bin/${relativeFileDirname}"
+                ]
+            },
+            "windows": {
+                "command": "New-Item",
+                "args": [
+                    "-ItemType",
+                    "Directory",
+                    "-Force",
+                    "-Path",
+                    "./bin/${relativeFileDirname}"
+                ]
+            },
             "options": {
                 "cwd": "${workspaceFolder}"
             },

@@ -4,10 +4,15 @@
         "name": "(gdb) Launch",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${workspaceFolder}/bin/${relativeFileDirname}/${fileBasenameNoExtension}",
         "cwd": "${fileDirname}",
         "MIMode": "gdb",
         "preLaunchTask": "Run all",
+        "linux": {
+            "program": "${workspaceFolder}/bin/${relativeFileDirname}/${fileBasenameNoExtension}",
+        },
+        "windows": {
+            "program": "${workspaceFolder}/bin/${relativeFileDirname}/${fileBasenameNoExtension}.exe",
+        },
         "setupCommands": [
             {
                 "description": "Enable pretty-printing for gdb",
