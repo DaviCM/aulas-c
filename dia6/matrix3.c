@@ -11,6 +11,9 @@
 
 // o ponteiro sempre é para o primeiro elemento da primeira dimensão!
 
+// A razão de o compilador precisar saber ao menos uma dimensão é para saber o tipo de dado
+// E com isso calcular os saltos de memória.
+
 void matrixTimes2(int matrix[3][3]) {
     for (int row = 0; row < 3; row++) {
         for (int col = 0; col < 3; col++) {

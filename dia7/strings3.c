@@ -23,6 +23,6 @@ int main(void) {
     char *str1 = "Oi pessoal!";
 
     printf("Esse é o tamanho da string \"%s\": %zu \n", str1, strlen(str1));
-    printf("E esse é o mesmo tamanho, mas eu que escrevi: %d", customStrlen(str1));
+    printf("E esse é o mesmo tamanho, mas eu que escrevi: %d \n", customStrlen(str1));
     return 0;
 }
