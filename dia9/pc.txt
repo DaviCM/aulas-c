@@ -1,0 +1,8 @@
+Processador: AMD Ryzen 7 5800X3D
+Placa-mãe: ASRock X570 Taichi
+Placa de vídeo: Sapphire Pulse AMD Radeon RX 9060 XT 16 GB
+Memória RAM: Crucial Pro 2x16 GB DDR4 3200 MT/s
+Armazenamento: Samsung 980 Pro NVMe M.2 500 GB
+Fonte: XPG Core Reactor 850W Cybenetics Gold
+CPU Cooler: Thermalright Peerless Assassin 2x120 mm 
+Gabinete: NZXT H5 Flow
