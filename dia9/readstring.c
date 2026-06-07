@@ -39,7 +39,7 @@ void read_pc_file(void) {
     char line[512];
     int count = 1;
      
-    // fgets() retornará null ao encontrar EOF!
+    // fgets() retornará null ao encontrar uma linha vazia!
     while (fgets(line, sizeof(line), pc) != NULL) {
         printf("%d: %s", count, line);
         count++;

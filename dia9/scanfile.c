@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-// Podemos fazer a mesma coisa do fprintf() com fscanf()
+// Assim como printf() para um arquivo é fprintf(), scanf() para um arquivo é fscanf().
 // Mas fscanf() tem um diferencial: Ela trata espaços como separadores de dados
 // Assim, com um único fscanf() podemos pegar todos os dados sobre os tanques!
-void scanfile(void) {
+void scan_file(void) {
     FILE *tanques;
     tanques = fopen("./dia9/tanques.txt", "r");
 
@@ -27,6 +27,6 @@ void scanfile(void) {
 
 
 int main(void) {
-    scanfile();
+    scan_file();
     return 0;
 }

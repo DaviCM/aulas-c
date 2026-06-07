@@ -35,7 +35,7 @@ rm:
 	@:
 
 
-.PHONY: all run rm
+.PHONY: all build run rm
 
 
 # MAKECMDGOALS pega todos os parâmetros passados ao Make na execução

@@ -1,0 +1,5 @@
+A
+Hello world do fputs! 
+Hello world, mas do fprintf! 
+PI ≃ 3.141592 
+
