@@ -53,7 +53,7 @@ void times4(float array[5], int len) {
     };
 }
 
-// Essas três são essencialmente a mesma coisa, mas com o parâmetro array em forma de argumento;
+// Essas três são essencialmente a mesma coisa, mas com o parâmetro array em forma de ponteiro;
 // array;
 // e array com tamanho fixo.
 

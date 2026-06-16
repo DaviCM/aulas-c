@@ -20,9 +20,9 @@ void read_binary(void) {
     FILE *fp;
     fp = fopen("./dia10/bin_2.bin", "rb");
 
-    char buffer[1024];
+    unsigned char buffer;
 
-    while (fread(buffer, sizeof(unsigned short), 1, fp) != 0) {
+    while (fread(&buffer, sizeof(unsigned char), 1, fp) != 0) {
         printf("%d \n", buffer);
     };
 
