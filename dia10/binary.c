@@ -51,5 +51,6 @@ int main(void) {
 
 // NÃO ESQUECER:
 // decay to pointer não acontece aqui, o escopo é o mesmo e não uma chamada de função. fwrite e fread 
-// pedem o conjunto de um dos dados do conjunto, não de todos. Logo, sizeof(bytes) e sizeof(unsigned char) são diferentes.
-// um pega o tamanho total = 1 * 7, 7 bytes por caractere. o outro pega apenas um byte, então cada dado deve ter apenas um.
+// pedem o tamanho de um dos dados do conjunto, não de todos. Logo, sizeof(bytes) e sizeof(unsigned char) são diferentes.
+// um pega o tamanho total = 1 * 7, 7 bytes na string. o outro pega apenas um byte, que é um caractere, então cada
+// dado passado (elemento da array) deve ter apenas um byte.
