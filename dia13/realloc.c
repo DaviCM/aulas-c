@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// obs: realloc trabalha byte por byte!
+
 int main(void) {
     int *ints;
     ints = calloc(10, sizeof(*ints));
