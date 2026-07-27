@@ -24,7 +24,7 @@ int strlen_rw(char *str) {
         c++;
     };
 
-    return (c - str);
+    return (c - str); // subtração de ponteiro retornará o número de elementos do tipo do ponteiro entre eles.
 }
 
 
