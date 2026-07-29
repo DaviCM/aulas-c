@@ -4,7 +4,7 @@
 int main(void) {
     /* strtol() e suas irmãs possuem outra caraterística:
        o uso de ponteiros para ponteiros.
-       As funções teiras, que suportam também hex e octal, recebem três argumentos:
+       As funções inteiras, que suportam também hex e octal, recebem três argumentos:
 
        - ponteiro para o início da string
 
