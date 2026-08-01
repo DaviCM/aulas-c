@@ -12,6 +12,9 @@
 /* um void* é um pointer normal, mas não sabemos o tipo dele.
  * assim, a matemática de ponteiros não funciona, porque não sabemos o tipo de dado que ele está apontando
  * e assim, não sabemos seu tamanho.
+ * 
+ * no entanto, um void* pode ser convertido para um ponteiro de qualquer tipo, 
+ * pode apontar para um endereço em que qualquer tipo de variável esteja armazenado.
  */
 
 // lembrete: um char* sempre é um byte!
