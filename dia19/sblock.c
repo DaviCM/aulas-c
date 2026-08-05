@@ -2,7 +2,7 @@
 
 int count(void) {
     /* em escopo de bloco, como uma função, static significa que uma variável não deve
-       ser dealocada quando seu escopo termina, ela continua na memória e ainda pode
+       ser desalocada quando seu escopo termina, ela continua na memória e ainda pode
        ser manipulada. ela vive enquanto o programa estiver em execução.
 
        portanto, só é inicializada uma vez, e por padrão é inicializada para 0.
