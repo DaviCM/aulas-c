@@ -14,7 +14,7 @@
    gumentos.
 */
 
-// o primeiro é int: arg count, o segundo é arg values, uma array de char *.
+// o primeiro é int: arg count, o segundo é arg vectors, uma array de char *.
 // ou pointer to pointer, na maioria dos casos.
 int main(int argc, char *argv[]) {
     printf("no de argumentos passados na execução: %d\n", argc);
