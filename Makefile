@@ -1,6 +1,6 @@
 # Atribuição com := é feita apenas uma vez
 CC := gcc
-CFLAGS := -fdiagnostics-color=always -Wall -Wextra -std=c23 -pedantic -g
+CFLAGS := -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=gnu23 -lm
 
 BIN := ./bin
 
