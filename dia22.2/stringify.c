@@ -20,7 +20,7 @@
 
 /* e se passarmos dois hashs seguidos, ##, os valores serão concatenados em um único
    resultado. Como um __VA_ARGS__ com # antes e ..., mas podendo especificar o número de
-   elementos.
+   elementos e não transformando o valor em uma char*.
 
    valores de qualquer tipo podem ser concatenados, eles serão unidos e tratados como um 
    valor só.
